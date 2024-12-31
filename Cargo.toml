@@ -1,0 +1,9 @@
+[package]
+name = "chat_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.42.0", features = ["full"] }
+tokio-tungstenite = { version = "0.26.1", features = ["tokio-rustls"] }
+futures-util = "0.3.31"
